@@ -5,8 +5,8 @@ if(isset($_POST) && $_POST['save'])
 
 	$short = $_POST['shortcode'];
 
-	$con = mysql_connect('a.db.shared.orchestra.io','user_7f77c07e','FYwnfb,GZ5^,wQ') or die("error");
-	mysql_select_db("db_7f77c07e", $con) or die("error");
+	$con = mysql_connect('a.db.shared.orchestra.io','user_b18aea98','LxIDP5YvSDxy-&') or die("error");
+	mysql_select_db("db_b18aea98", $con) or die("error");
 	$sql = "insert into city_table(name,short_name) values('$city','$short')";
 
 	mysql_query($sql);
